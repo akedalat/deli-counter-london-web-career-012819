@@ -22,4 +22,3 @@ i = array.size
 puts "Welcome, #{names}. You are number #{i} in line."
 
 end
-end
