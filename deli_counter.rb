@@ -15,8 +15,8 @@ puts sentence
 end
 
 
-def take_a_number(katz_deli, name)
-katz_deli.push(name)
+def take_a_number(array, name)
+array.push(name)
   i=0
   while i<katz_deli.size
 
