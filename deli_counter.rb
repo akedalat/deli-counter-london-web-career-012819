@@ -22,3 +22,4 @@ def take_a_number(katz_deli, name)
 puts "Welcome, #{katz_deli[i]}. You are number #{i+1} in line."
 i += 1
 end
+end
