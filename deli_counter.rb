@@ -16,11 +16,4 @@ end
 
 
 def take_a_number(katz_deli, name)
-i = 0
-  while i < katz_deli.size
-    if katz_deli.size == 0
-      puts "Welcome, #{name}. You are number #{i+1} in line."
-    end
-    i++
-  end
 end
