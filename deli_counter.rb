@@ -17,10 +17,9 @@ end
 
 def take_a_number(array, name)
 array.push(name)
-  i=0
-  while i<array.size
 
-puts "Welcome, #{array[i]}. You are number #{i+1} in line."
-i += 1
+array.each_with_index do |names, index|
+puts "Welcome, #{names}. You are number #{index+1} in line."
+
 end
 end
