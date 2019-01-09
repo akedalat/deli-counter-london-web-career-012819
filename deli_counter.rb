@@ -20,3 +20,7 @@ array.push(name)
 i = array.size
 puts "Welcome, #{name}. You are number #{i} in line."
 end
+
+def now_serving
+
+end
