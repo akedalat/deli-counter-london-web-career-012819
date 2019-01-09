@@ -18,9 +18,9 @@ end
 def take_a_number(array, name)
 array.push(name)
   i=0
-  while i<katz_deli.size
+  while i<array.size
 
-puts "Welcome, #{katz_deli[i]}. You are number #{i+1} in line."
+puts "Welcome, #{array[i]}. You are number #{i+1} in line."
 i += 1
 end
 end
