@@ -17,9 +17,9 @@ end
 
 def take_a_number(array, name)
 array.push(name)
+i = array.size
 
-array.each_with_index do |names, index|
-puts "Welcome, #{names}. You are number #{index+1} in line."
+puts "Welcome, #{names}. You are number #{i} in line."
 
 end
 end
